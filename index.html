@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guia Completo de HTML</title>
+</head>
+<body>
+    <header>
+        <h1 id="inicio">Guia de Tags HTML para Iniciantes</h1>
+        <nav>
+            <ul>
+                <li><a href="#titulos">Títulos e Hierarquia</a></li>
+                <li><a href="#formatacao">Formatação de Texto</a></li>
+                <li><a href="#listas">Listas</a></li>
+                <li><a href="#outras">Outras Tags</a></li>
+            </ul>
+        </nav>
+        <hr>
+    </header>
+
+    <main>
+        <article>
+            <h2 id="titulos">O que são tags de título?</h2>
+            <small><a href="#inicio">(Voltar ao topo)</a></small>
+            <p>As tags <code>&lt;h1&gt;</code> a <code>&lt;h6&gt;</code> são usadas para definir <strong>cabeçalhos</strong> em uma página HTML.</p>
+            
+            <h3>Hierarquia dos títulos</h3>
+            <p><mark><strong>&lt;h1&gt;</strong></mark> → Título principal (deve aparecer <u>apenas uma vez</u> por página).</p>
+            <p><strong>&lt;h2&gt;</strong> → Subtítulos (ex: <i>"Como funciona o HTML"</i>).</p>
+            <p><small>&lt;h3&gt; a &lt;h6&gt; → Subseções (quanto maior o número, menor a importância visual).</small></p>
+            
+            <blockquote cite="https://developer.mozilla.org/pt-BR/">
+                "A hierarquia de títulos é essencial para acessibilidade e SEO. Nunca pule níveis (ex: evite h1 → h3 sem h2)."
+            </blockquote>
+        </article>
+
+        <article>
+            <h2 id="formatacao">Formatação de Texto</h2>
+            <small><a href="#inicio">(Voltar ao topo)</a></small>
+            
+            <p>Exemplos de formatação:</p>
+            <ul>
+                <li><strong>Negrito</strong> com &lt;strong&gt;</li>
+                <li><i>Itálico</i> com &lt;i&gt;</li>
+                <li><u>Sublinhado</u> com &lt;u&gt;</li>
+                <li><mark>Texto marcado</mark> com &lt;mark&gt;</li>
+                <li><small>Texto pequeno</small> com &lt;small&gt;</li>
+                <li>Texto <del>excluído</del> com &lt;del&gt;</li>
+                <li>H<sub>2</sub>O (subscrito) e x<sup>2</sup> (sobrescrito)</li>
+                <li><abbr title="HyperText Markup Language">HTML</abbr> com &lt;abbr&gt;</li>
+                <li><font color="blue" face="Arial">Texto com fonte específica</font> (tag obsoleta)</li>
+            </ul>
+        </article>
+
+        <article>
+            <h2 id="listas">Listas</h2>
+            <small><a href="#inicio">(Voltar ao topo)</a></small>
+            
+            <h3>Lista Ordenada</h3>
+            <ol>
+                <li>Primeiro item</li>
+                <li>Segundo item</li>
+                <li>Terceiro item</li>
+            </ol>
+            
+            <h3>Lista Não Ordenada</h3>
+            <ul>
+                <li>Item A</li>
+                <li>Item B</li>
+                <li>Item C</li>
+            </ul>
+        </article>
+
+        <article>
+            <h2 id="outras">Outras Tags Importantes</h2>
+            <small><a href="#inicio">(Voltar ao topo)</a></small>
+            
+            <p>Exemplo de parágrafo com quebra de linha:<br>
+            Esta é a segunda linha após a tag &lt;br&gt;.</p>
+            
+            <p>Linha horizontal abaixo:</p>
+            <hr>
+            
+            <p>Endereço:</p>
+            <address>
+                Exemplo de rua, 123<br>
+                São Paulo, SP
+            </address>
+        </article>
+    </main>
+
+    <footer>
+        <p><small>Guia criado para o desafio de HTML - 2025</small></p>
+    </footer>
+</body>
+</html>
